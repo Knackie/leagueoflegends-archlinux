@@ -55,6 +55,11 @@ Now, snap install --edge on league don't work, use : 	snap remove leagueoflegend
 
 * You have to use ([script](https://github.com/Knackie/leagueoflegends-archlinux/blob/master/launchhelper.sh)) before login in new launcher.
 
+`   chmod +x launchhelper.sh`
+
+And before you login : 
+` ./launchhelper.sh` 
+
  ## Known Issues and fixes for them:
  
  ### Game not starting (Unhandled exception and MIDIMAP_drvOpen in lol ver 9.21):
