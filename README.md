@@ -5,7 +5,7 @@ this is a repos to help you in the installation of league of legends on your lin
 
 
 <h1 align="center">
-  <img src="snap/gui/leagueoflegends.png" alt="Project">
+  <img src="leagueoflegends.png" alt="LOL">
   <br />
   League of Legends
 </h1>
