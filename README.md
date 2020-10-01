@@ -13,6 +13,8 @@ this is a repos to help you in the installation of league of legends on your lin
 <p align="center"><b>This is the snap for leagueoflegends</b>, <i>"leagueoflegends is a MOBA game developed by Riot Games"</i>.</p>
 
 
+
+
 **Note:** For archlinux only, with snapd
 
 ## Dependencies 
