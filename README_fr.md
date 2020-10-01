@@ -1,7 +1,7 @@
 # leagueoflegends-archlinux
 
 
-ceci est un référentiel pour vous aider à installer league of legends sur votre Linux, avec des captures d'écran.
+Ceci est un repot pour vous aider à installer league of legends sur votre Linux, avec des captures d'écran.
 
 
 <h1 align="center">
@@ -10,7 +10,7 @@ ceci est un référentiel pour vous aider à installer league of legends sur vot
   League of Legends
 </h1>
 
-<p align="center"><b>C'est le claquement pour leagueoflegends</b>, <i>"leagueoflegends est un jeu MOBA développé par Riot Games"</i>.</p>
+<p align="center"><b>Configuré avec Snap pour leagueoflegends</b>, <i>"leagueoflegends est un jeu MOBA développé par Riot Games"</i>.</p>
 
 
 
@@ -34,12 +34,12 @@ Tout d'abord, vous devez installer snap :
   makepkg -si ` 
   
   
-  Une fois installée, l'unité systemd qui gère la prise de communication snap principale doit être activée:
+  Une fois installé, l'unité systemd qui gère la prise de communication snap principale doit être activée:
   
  ` sudo systemctl enable --now snapd.socket ` 
  
  
-Pour activer la prise en charge de l'accrochage classique, entrez ce qui suit pour créer un lien symbolique entre / var / lib / snapd / snap et / snap:
+Entrez la commande suivante pour créer un lien symbolique entre / var / lib / snapd / snap et / snap:
  
  ` sudo ln -s /var/lib/snapd/snap /snap`
  
@@ -51,9 +51,9 @@ Pour activer la prise en charge de l'accrochage classique, entrez ce qui suit po
     snap refresh --candidate wine-platform-5-staging
 	  snap refresh --beta wine-platform-runtime
 
-Maintenant, snap install --edge sur league ne fonctionne pas, utilise : snap remove leagueoflegends && snap install --devmode --edge leagueoflegends
+Actuellement, snap install --edge sur league ne fonctionne pas, utilisez : snap remove leagueoflegends && snap install --devmode --edge leagueoflegends
 
-* Vous devez utiliser ([script](https://github.com/Knackie/leagueoflegends-archlinux/blob/master/launchhelper.sh)) avant de vous connecter au lanceur.
+* Vous devez utiliser ([script](https://github.com/Knackie/leagueoflegends-archlinux/blob/master/launchhelper.sh)) avant de vous connecter au launcher.
 
 `   chmod +x launchhelper.sh`
 
