@@ -1,6 +1,7 @@
 
 # leagueoflegends-archlinux
 this is a repos to help you in the installation of league of legends on your linux, with snap.
+If it has helped you, feel free to put a star :)
 <h1 align="center">
   <img src="leagueoflegends.png" alt="LOL">
   <br />
